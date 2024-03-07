@@ -9,7 +9,7 @@ class Publication:
 
 
 class Periodical(Publication):
-    def __init__(self, title, price, publisher, period):
+    def __init__(self, title, price, period, publisher):
         super().__init__(title, price)
         self.period = period
         self.publisher = publisher
